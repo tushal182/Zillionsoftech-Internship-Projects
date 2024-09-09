@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+th.sticky, td.sticky {
+    position: sticky;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+th.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 2; /* Ensure header is above other cells */
+}
+td.sticky {
+    left: 0;
+}

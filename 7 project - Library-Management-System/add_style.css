@@ -1,0 +1,9 @@
+body {
+    margin: 1rem;
+    background: -webkit-linear-gradient(left, rgb(221, 218, 218), rgb(146, 144, 144));
+}
+
+h3 {
+    line-height: 7rem;
+    text-align: center;
+}
